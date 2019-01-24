@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuriVisa-@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="~/Content/img/LogoMark-05.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+    <div class="fixed-top">
+        <div class="text-light text-center bg-linear-orange d-none d-md-none d-sm-none d-lg-flex" style="margin-bottom:-20px;">
+            <div class="col-3 mx-auto py-0">
+                <p><i class="fas fa-phone"></i> Hotline: +84 352 165 585</p>
+            </div>
+            <div class="col-5 mx-auto py-0">
+                <p><i class="fas fa-map-marker-alt"></i> Address: 13, Street 41, Ward 10, District 6, HO CHI MINH City</p>
+            </div>
+            <div class="col-4 mx-auto py-0">
+                <p><i class="fas fa-clock"></i> Opening Times: Mon - Sat 08:00 - 18:00</p>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="MainNavbar" style="background-color:black;">
+            <img class="navbar-brand h-auto" src="~/Content/img/LogoMark-05.png" width="50">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-nav d-none">
+                <div class="nav-item">
+                    <a class="nav-link"><i class="fas fa-user size125"></i></a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link"> <i class="fas fa-bell size125"></i></a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link"> <i class="fas fa-search size125"></i></a>
+                </div>
+
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" data-toggle="tooltip" data-placement="bottom" title="TRANG CHỦ" href="/home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tooltip" data-placement="bottom" title="TÌM HIỂU THÊM VỀ CHÚNG TÔI" href="/about-us">ABOUT<br /></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/News" data-toggle="tooltip" data-placement="bottom" title="TIN TỨC">NEWS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
+                            SERVICES
+                        </a>
+                        <div class="dropdown-menu bg-black-70
+                         " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/vietnam-visa-services-for-vietnamese">VISA SERVICES FOR VIETNAMESE</a>
+                            <a class="dropdown-item" href="/vietnam-visa-services-for-foreigner">VIETNAM VISA SERVICES FOR FOREIGNER</a>
+                            <a class="dropdown-item" href="http://Chungminhtaichinhhochiminh.com">FINANCE PROOF</a>
+                            <a class="dropdown-item" href="#">CONSULAR LEGALIZATION</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#" data-toggle="tooltip" data-placement="bottom" title="lIÊN HỆ" data-scroll="#Footer">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/payment-infomation" data-toggle="tooltip" data-placement="bottom" title="THÔNG TIN THANH TOÁN">PAYMENT INFORMATION</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div id="body-page">
+        @RenderBody()
+
+        <footer class="text-orange-1 row" id="Footer">
+            <div class="d-block p-2 row w-100"></div>
+            <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-2 mx-auto">
+                <div class="text-uppercase text-center col-12 mx-auto">
+                    <h5>CONTACT</h5>
+                </div>
+                <div class="col-10 mx-auto px-0">
+
+                    Hotline: +84 352 165 585<br />
+                    Email: info@yurivisa.com
+                    
+                    <div class="row">
+                        <div class="col-4 p-0 m-0">
+
+                            <small>  Ms.Yuri:</small>
+                        </div>
+                        <div class="col-8 px-1">
+                            <small>
+                                +84-961 063 374<br />
+                                yuri@yurivisa.com
+                            </small>
+</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 p-0 m-0">
+
+                            <small> Mr.Vinh:</small>
+                        </div>
+                        <div class="col-8 px-1">
+                            <small>
+                                +84-961 748 174<br />
+                                sales1@yurivisa.com
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 p-0 m-0">
+
+                            <small> Ms.Colind:</small>
+                        </div>
+                        <div class="col-8 px-1">
+                            <small>  +84-961 748 174<br />
+                           
+                            sales2@yurivisa.com</small>
+                        </div>
+                    </div>
+                    <nav class="navbar px-0 navbar-dark d-none">
+                        Visit Us
+                        <div class="nav-item navbar-nav">
+                            <a class="nav-link">
+                                <i class="fab fa-instagram" style="font-size:30px"></i>
+                            </a>
+                        </div>
+                        <div class="nav-item navbar-nav">
+                            <a class="nav-link">
+                                <i class="fab fa-twitter" style="font-size:30px"></i>
+                            </a>
+                        </div>
+                        <div class="nav-item navbar-nav">
+                            <a class="nav-link">
+                                <i class="fab fa-facebook-f" style="font-size:30px"></i>
+                            </a>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3 mx-auto mt-3 mt-md-2 text-uppercase">
+                <div class="col-12 text-center  mx-auto">
+                    <h5>Services</h5>
+                </div>
+                <div class="col-12 mx-auto text-center font-size-80">
+                    VISA SERVICES FOR VIETNAMESE<br />
+                    <a href="/vietnam-visa-services-for-foreigner">VIETNAM VISA SERVICES FOR FOREIGNER</a><br />
+                    <a href="http://Chungminhtaichinhhochiminh.com">FINANCE PROOF</a><br />
+                    CONSULAR LEGALIZATION<br />
+                </div>
+            </div>
+           
+            <div class=" col-12 col-md-6 col-lg-2 mt-3 mt-md-2 mx-auto text-center text-uppercase">
+                <div class=" col-12 mx-auto">
+                    <h5>site map</h5>
+                </div>
+                <div class="col-12 mx-auto px-0 font-size-80 ">
+                    <p>
+                        <a href="home">Home</a><br />
+                        @*<a href="#" class="text-hide">About</a><br />
+                    <a href="#" class="text-hide">Services</a><br />
+                    <a href="#" class="text-hide">Blog</a><br />*@
+                        <a href="#" data-toggle="modal" data-target="#exampleModalCenter">Contact</a><br />
+                        <a href="/payment-infomation">Payment Information</a><br />
+                    </p>
+                </div>
+            </div>
+           
+            <div class="col-12 col-md-6 col-lg-4 mx-auto">
+                <div class="col-12 col-md-8 mx-auto">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.007447460113!2d106.6271358280354!3d10.732185758162466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ffea7cbfc59%3A0x1b9b482055055371!2sNgoc+Quyen+Management+Consulting+Company+Limited!5e0!3m2!1svi!2s!4v1538761916334" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="d-block p-2 w-100"></div>
+            <!-- Button trigger modal -->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="text-lg text-center text-orange-4" id="contactTitle"> Contact Us</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-12 mx-auto mr-lg-auto">
+                                <div>
+                                    <form id="formcontact">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="Name" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="Phone" placeholder="Phone Number">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea id="Message" class="form-control" name="subject" placeholder="Your message" style="height:200px"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn bg-orange-4">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/Site")
+</body>
+</html>
