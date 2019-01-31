@@ -90,5 +90,9 @@ namespace YuriVisa.Controllers
         {
             return View();
         }
+        public ActionResult ChucTet_VietHan()
+        {
+            return View();
+        }
     }
 }
